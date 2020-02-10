@@ -1,0 +1,156 @@
+/* STYLE FOR MOBILE VIEW */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'open sans', sans-serif;
+    margin: 0px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    background: url(images/bg-hero-desktop.svg), 
+              rgb(235, 250, 253);
+}
+
+nav{
+    padding-top: 3em;
+}
+
+nav img{
+    width: 40%;
+    float: left;
+}
+
+nav button{
+    float: right;
+}
+
+.btn{
+    border-radius: 1.5em;
+    font-size: 1.5em;
+    padding: 10px 30px;
+    border: none;
+    box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.4);
+}
+
+.bg-white{
+    font-size: 0.6em !important;
+    background-color: #FFFFFF;
+}
+
+.bg-pink{
+    margin: 5px;
+    font-size: 0.8em;
+    color: #FFFFFF;
+    background-color:pink;
+}
+
+.header-row{
+    font-size: 0.8em;
+    margin-top: 6em;
+    text-align: center;
+}
+
+.header-row-text h2{
+    font-size: 1.5em;
+}
+
+.header-row img{
+    width: 100%;
+}
+main{
+margin: auto;
+width: 90%
+}
+
+.card {
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 30px !important;
+    box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.4) !important;
+}
+
+.secondphase img, .thirdphase img, .fourthphase img{
+    width: 100%
+}
+
+.tabz{
+    padding: 1.8em;
+    position: relative;
+    bottom: -100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 0.5em;
+    background-color: rgb(255, 255, 255);
+
+    
+}
+
+.tee{
+    width:100%;
+    padding-top: 50%;
+}
+.start{
+    line-height: 30px;
+    font-size: 0.5em;
+    display: flex;
+
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+}
+.start i{
+border: 2px solid white;
+border-radius: 50%; 
+padding: 10px;
+color: #FFFFFF;
+font-size:1.5em;
+}
+ /* .tabby{
+    font-size:0.5em;
+    line-height:40%;  */
+}
+/* .social-links{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.social-links a:nth-of-type(n + 2){
+    margin-left: 1.5em; */
+}
+
+
+  
+
+
+/* .img-secondphase img{
+
+    width: 100%;
+    height: auto;
+  order: -1;
+  margin-top: 1em;
+}
+
+.thirdphase{
+margin-left: auto;
+margin-right: auto;
+}
+
+.img-thirdphase img{
+    width: 100%;
+    
+} */
+
+/* STYLE FOR DESKTOP VIEW */
+/* @media only screen and (min-width: 500px){
+
+} */
